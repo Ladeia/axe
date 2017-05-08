@@ -8,7 +8,8 @@ angular.module('starter', [
 	'ionic-material',
 	'starter.controllers',
 	'starter.factories',
-	'starter.directives'
+	'starter.directives',
+	'ngCordova'
 ])
 
 .run(function($ionicPlatform, $rootScope) {
