@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="br.com.sisau.axe" version="0.3.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="br.com.sisau.axe" version="28.04.20" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Orientações de Mãe Stella</name>
   <description>
-        Repositório de cultura Yorubá/Nagô.
+        Repositório de cultura Yorubá/Nagô composto por frases de Mãe Stella de Oxóssi.
   </description>
-  <author email="lucas.sisau@gmail.com" href="http://www.sisau.com.br/">
-      Cascudo
+  <author email="lucas.sisau@gmail.com" href="https://lucascudo.com.br/">
+      Lucas Teixeira Rocha
   </author>
   <author email="contato@antonioladeia.com" href="http://www.antonioladeia.com/">
       Antonio Ladeia
   </author>
   <content src="index.html"/>
   <access origin="*"/>
-  <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+  <preference name="AndroidPersistentFileLocation" value="Compatibility"/>
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="16"/>
   <preference name="BackupWebStorage" value="none"/>
   <preference name="SplashScreen" value="screen"/>
-  <preference name="SplashScreenDelay" value="3666"/>
+  <preference name="SplashScreenDelay" value="4000"/>
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>

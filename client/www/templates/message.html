@@ -1,17 +1,15 @@
-<ion-view title="Orientações de Mãe Stella">
+<ion-view title="Orientações de Mãe Stella" cache-view="false">
 	<ion-content id="message-body">
-		<img src="img/orientacoes_fundo.jpg">
+		<img src="img/{{ picture }}">
 	    <div class="item-text-wrap">
-			<a ng-click="message.media.play()" id="btn-play" class="my-player round-button" my-player>
-				<i class="ion-android-volume-up"></i>
-			</a>
-			<a ng-click="message.media.pause()" id="btn-pause" class="my-player round-button hide" my-player>
-				<i class="ion-android-volume-off"></i>
-			</a>
-      		<blockquote>{{ message.description }}</blockquote>
-			
+				<p style="margin: 10px;">{{ message.description }}</p>
+    	</div>
+    	<div style="text-align: center;">
+			<button ng-click="message.media.play()" id="btn-play" class="my-player rounded-button button-icon ion-play" alt="Play" my-player/>
+			<button ng-click="message.media.pause()" id="btn-pause" class="my-player rounded-button button-icon ion-pause hide" alt="Pause" my-player/>
+			<button ng-click="refreshPage()" class="btn-refresh rounded-button button-icon ion-skip-forward"/>
 			<button class="button" ng-click="shareAnywhere()">Share anywhere</button>
 			<button class="button" ng-click="shareViaTwitter('some message', null, 'https://www.thepolyglotdeveloper.com')">Share on Twitter</button>
-	    </div>
+		</div>
 	</ion-content>
 </ion-view>
